@@ -1,0 +1,310 @@
+
+/*--------------------Tags--------------------*/
+
+a {
+    color: #11999E;
+}
+
+a:hover {
+    color: #1A443B;
+}
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    background-color: #65BFBF;
+    padding-bottom: 50px;
+    padding-top: 20px
+}
+
+.header a {
+    list-style-type: none;
+    padding: 0 45px;
+    text-decoration: none;
+    color: white;
+}
+
+.header a:hover {
+    color: #0F999D;
+}
+
+ul#nav {
+    margin: auto;
+    text-align: center;
+}
+
+ul.drop a {
+    display:block;
+    color: white;
+    text-decoration: none;
+}
+
+ul.drop, ul.drop li, ul.drop ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #65BFBF;
+}
+
+ul.drop {
+    position: relative;
+    z-index: 597;
+    float: left;
+}
+
+ul.drop li {
+    float: left;
+    line-height: 1.3em;
+    vertical-align: middle;
+    zoom: 1;
+    padding: 5px 10px;
+}
+
+ul.drop li.hover, ul.drop li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default;
+}
+
+ul.drop ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 598;
+    width: 195px;
+}
+
+ul.drop ul li {
+    float: none;
+}
+
+ul.drop ul ul {
+    top: -2px;
+    left: 100%;
+}
+
+ul.drop li:hover > ul {
+    visibility: visible
+}
+
+h1 {
+    font-size: 3.75rem;
+    margin: 20px auto 0 auto;
+    font-family: 'Indie Flower', cursive;
+    color: #66BFBF;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #11999E;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    color: #66BFBF;
+}
+
+hr {
+    border-color: #EAF6F6;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    width: 60px;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+/*--------------------Classes--------------------*/
+
+.bottom-container {
+    background-color:  #66BFBF;
+    position:relative;
+    padding: 50px 0 50px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.job {
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+.web {
+    text-decoration: underline;
+}
+
+.top-container {
+    background-color: #E0EAE8;
+    position: relative;
+    padding-top: 150px;
+}
+
+.middle-container {
+    padding: 20px 0 100px 0;
+
+}
+
+.top-cloud {
+    position: absolute;
+    top: 105px;
+    right: 405px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 450px;
+    bottom: 250px;
+}
+
+.mountain {
+    height: 450px;
+    width: 700px;
+}
+
+.computer {
+    width: 25%;
+    float: left;
+    margin-right: 40px;
+}
+
+.formations {
+        width: 25%;
+        float: left;
+        margin-right: 40px;
+    }
+
+.coteivoire {
+    width: 25%;
+    float: right;
+    margin-left: 40px;
+}
+
+.verresolutions {
+    width: 25%;
+    float: right;
+    margin-left: 40px;
+}
+
+.handshake {
+    width: 25%;
+    float: right;
+    margin-left: 40px;
+}
+
+.officedepot {
+    width: 25%;
+    float: left;
+    margin-right: 40px;
+}
+
+.kungfu {
+    width: 25%;
+    float: left;
+    margin-right: 40px;
+}
+
+.knitting {
+    width: 25%;
+    float: right;
+    margin-left: 40px;
+}
+
+.climbing {
+    width: 25%;
+    float: right;
+    margin-left: 40px;
+}
+
+.dansing {
+    width: 25%;
+    float: left;
+    margin-right: 40px;
+}
+
+.cursus-row {
+    width: 25%;
+    float: left;
+    margin-right: 40px;
+}
+
+.passion-row {
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.reco-interne {
+    width: 50%;
+    margin:100px auto 100px auto;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row {
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+}
+
+.cursus {
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+}
+
+.reco-clients {
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+}
+
+.formationsinternes {
+        width: 50%;
+        margin:100px auto 100px auto;
+        text-align: left;
+    }
+
+.footer-copyright {
+    color: #EAF6F6;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 25px;
+    margin: auto;
+}
+
+.footer-link {
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #66BFBF;
+    color: #EAF6F6;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-me-description {
+    width: 40%;
+    margin: 40px auto 60px;
+}
